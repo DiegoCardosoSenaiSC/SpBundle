@@ -8,7 +8,7 @@ lightsaml_sp.discovery:
 
 lightsaml_sp.login:
     path: /login
-    defaults: { _controller: LightSaml\SpBundle\Controller\DefaultController::loginAction}
+    defaults: { _controller: LightSaml\SpBundle\Controller\DefaultController::loginAction }
 
 lightsaml_sp.login_check:
     path: /login_check
